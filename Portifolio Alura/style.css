@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+    --cor-principal: #080c0f;
+    --cor-secundaria: #000000;
+    --cor-destaque: #490000;
+}
+
+body {
+     font-family: "Playfair", serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+      font-weight: 1000;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
